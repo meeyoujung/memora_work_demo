@@ -78,9 +78,9 @@ def ensure_record_schema():
         st.session_state["demo_photos"] = {}
 
 DEMO_RECORDS = [
-    {"id":"001","date":"2026-10-21","category":"회의","title":"신제품 기획 회의","place":"본사 회의실","branch":"미확인","attendees":"기획팀","content":"신제품 출시 일정과 다음 주 보고 자료 준비 사항을 확인했다."},
-    {"id":"002","date":"2026-10-23","category":"식당","title":"조용한 일식집 예약","place":"예시 일식당","branch":"강남점","attendees":"방문객 2명","content":"조용한 룸이 있는 일식당을 점심 장소로 검토했다."},
-    {"id":"003","date":"2026-10-27","category":"예약","title":"출장 교통편 확인","place":"서울역","branch":"미확인","attendees":"출장자 1명","content":"출장 일정과 교통편 예약 확인 사항을 정리했다."},
+    {"id":"001","date":"2026-11-25","category":"회의","title":"11월 마케팅팀 회의","place":"본사 3층 회의실","branch":"미확인","attendees":"정미유 대표,홍승희 상무,김영화 팀장,이지혜 매니저","content":"- 회의 전 자료 선 출력"},
+    {"id":"002","date":"2026-11-20","category":"일정","title":"여성임원만찬","place":"그랜드 인터컨티넨탈 서울 파르나스","branch":"미확인","attendees":"정미유 대표,홍승희 상무,박서연 전무,최유진 상무","content":"- 참석자 명단 및 좌석 배치 확인\n- 만찬 장소 예약 내역 확인\n- 행사 전 참석자 일정 재확인"},
+    {"id":"003","date":"2026-11-18","category":"회의","title":"2026 2차 주주총회","place":"본사 대회의실","branch":"미확인","attendees":"정미유 대표,홍승희 상무,김도현 이사,이서준 팀장","content":"- 주주총회 참석자 명단 확인\n- 회의 자료 및 의결 안건 출력\n- 회의실 좌석 배치와 진행 일정 점검"},
 ]
 
 def delete_record(record_id):
